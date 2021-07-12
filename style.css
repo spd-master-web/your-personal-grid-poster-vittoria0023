@@ -21,10 +21,10 @@ article {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #FFB1F6;
   font-size: 50px;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 4;
 
-  grid-row-start: 1;
+  grid-row-start: 2;
   grid-row-end: 2;
 
   grid-row: 1/2; 
