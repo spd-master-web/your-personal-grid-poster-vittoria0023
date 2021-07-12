@@ -56,3 +56,45 @@ article {
     grid-column-end: 3;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  border: 1px solid pink;
+}
+
+article {
+  padding: 1em;
+  border: 1px solid pink;
+}
+
+.grid-container {
+  padding: 20px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 2fr 1fr;
+
+
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+
+.grid-item-special {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  grid-row: 1/2;
+
+  background-color: yellow;
+}
